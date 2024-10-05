@@ -1,0 +1,32 @@
+@model TransaccionesApp.Models.Remesa
+
+<h2>Detalles de la Remesa</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre del Remitente</th>
+            <th>Nombre del Destinatario</th>
+            <th>País de Origen</th>
+            <th>País de Destino</th>
+            <th>Monto Enviado</th>
+            <th>Tipo de Moneda</th>
+            <th>Tasa de Cambio</th>
+            <th>Monto Final</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.NombreRemitente</td>
+            <td>@Model.NombreDestinario</td>
+            <td>@Model.PaisOrigen</td>
+            <td>@Model.PaisDestino</td>
+            <td>@Model.MontoEnviado</td>
+            <td>@Model.TipoMoneda</td>
+            <td>@Model.TasaCambio</td>
+            <td>@Model.MontoFinal</td>
+            <td>@Model.Estado</td>
+        </tr>
+    </tbody>
+</table>

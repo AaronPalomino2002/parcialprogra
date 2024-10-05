@@ -1,0 +1,6 @@
+#.NET Core build folders
+bin/
+obj/
+#Common node modules locations
+/node-modules
+/wwwroot/node_modules
