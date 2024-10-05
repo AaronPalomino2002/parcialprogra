@@ -20,7 +20,7 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 
 # Establecemos el nombre de la aplicación principal
-ENV APP_NET_CORE transaccionesapp.dll 
+ENV APP_NET_CORE TransaccionesApp.dll 
 
 # Definimos el comando para ejecutar la aplicación
 # Cambiamos la URL para que use el host 0.0.0.0 con el puerto dinámico
